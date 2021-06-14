@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+html {
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: white;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.label{
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+}
+
+.input{
+  margin-top: 150px;
+  width: 400px;
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 15px;
+  border: 1px solid #444444;
+  margin-bottom: 1rem;
+}
+
+
+.button{
+  height: 42px;
+  width: 150px;
+  margin-top: 2rem;
+  margin-bottom: 25px;
+  background-color: #DD342F;
+  color: white;
+  padding: 1rem 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover{
+  opacity: 0.7;
+}
+
+@media (min-width: 786px){
+  .form{
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+
+  .input{
+    margin-bottom: 0;
+  }
+}
+
+.card--list{
+  margin-top: 4rem;
+  display: inline-block;
+}
+
+.img--poster{
+    display: inline-block;
+    width: 200px;
+    cursor: pointer;
+}
+
+.img--poster img{
+    width: 100%;
+    transform: scale(0.9);
+    transition: all ease 0.3s;
+}
+
+.img--poster img:hover{
+    transform: scale(1);
+}
