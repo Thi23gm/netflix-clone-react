@@ -4,7 +4,11 @@ NetFlix clone feito usando o FrameWork React para mais aprendizado da tecnologia
 
 O app ultiliza a API do The Movie DB ( www.themoviedb.org ) para pegar os dados dos filmes e series inseridos na aplicação
 
-#In the project directory, you can run:
+Para visualizar entre no site https://tbdiw2.thi23gm.repl.co/
+
+OU
+
+#You can run:
 
 ### `npm start`
 
