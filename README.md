@@ -6,9 +6,7 @@ O app ultiliza a API do The Movie DB ( www.themoviedb.org ) para pegar os dados 
 
 Para visualizar entre no site https://tbdiw2.thi23gm.repl.co/
 
-OU
-
-#You can run:
+Ou you can run:
 
 ### `npm start`
 
